@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC03D3D016AC940D00AFC66F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC03D3CF16AC940D00AFC66F /* Cocoa.framework */; };
+		AC03D3DA16AC940D00AFC66F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC03D3D816AC940D00AFC66F /* InfoPlist.strings */; };
+		AC03D3DC16AC940D00AFC66F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03D3DB16AC940D00AFC66F /* main.m */; };
+		AC03D3E016AC940D00AFC66F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AC03D3DE16AC940D00AFC66F /* Credits.rtf */; };
+		AC03D3E316AC940D00AFC66F /* AQTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03D3E216AC940D00AFC66F /* AQTAppDelegate.m */; };
+		AC03D3E616AC940E00AFC66F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC03D3E416AC940E00AFC66F /* MainMenu.xib */; };
+		AC03D3F016AC946200AFC66F /* field.c in Sources */ = {isa = PBXBuildFile; fileRef = AC03D3EC16AC946200AFC66F /* field.c */; };
+		AC03D3F416AC969500AFC66F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03D3F316AC969500AFC66F /* Controller.m */; };
+		AC03D3F716AD5D8900AFC66F /* MineFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03D3F616AD5D8900AFC66F /* MineFieldView.m */; };
+		AC03D3F916AF555000AFC66F /* grid2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC03D3F816AF555000AFC66F /* grid2.png */; };
+		AC068B6516C4EFB0000BE5DB /* ScoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC068B6416C4EFB0000BE5DB /* ScoresController.m */; };
+		AC27EC9216DA7FF500A18186 /* attributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC27EC9116DA7FF500A18186 /* attributes.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC03D3CB16AC940D00AFC66F /* minestimed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minestimed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC03D3CF16AC940D00AFC66F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AC03D3D216AC940D00AFC66F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AC03D3D316AC940D00AFC66F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC03D3D416AC940D00AFC66F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC03D3D716AC940D00AFC66F /* minestimed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "minestimed-Info.plist"; sourceTree = "<group>"; };
+		AC03D3D916AC940D00AFC66F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC03D3DB16AC940D00AFC66F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC03D3DD16AC940D00AFC66F /* minestimed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "minestimed-Prefix.pch"; sourceTree = "<group>"; };
+		AC03D3DF16AC940D00AFC66F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AC03D3E116AC940D00AFC66F /* AQTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQTAppDelegate.h; sourceTree = "<group>"; };
+		AC03D3E216AC940D00AFC66F /* AQTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQTAppDelegate.m; sourceTree = "<group>"; };
+		AC03D3E516AC940E00AFC66F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC03D3EC16AC946200AFC66F /* field.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = field.c; path = minestimed/field.c; sourceTree = "<group>"; };
+		AC03D3ED16AC946200AFC66F /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = field.h; path = minestimed/field.h; sourceTree = "<group>"; };
+		AC03D3F216AC969500AFC66F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		AC03D3F316AC969500AFC66F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		AC03D3F516AD5D8900AFC66F /* MineFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineFieldView.h; sourceTree = "<group>"; };
+		AC03D3F616AD5D8900AFC66F /* MineFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineFieldView.m; sourceTree = "<group>"; };
+		AC03D3F816AF555000AFC66F /* grid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid2.png; sourceTree = "<group>"; };
+		AC068B6316C4EFB0000BE5DB /* ScoresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresController.h; sourceTree = "<group>"; };
+		AC068B6416C4EFB0000BE5DB /* ScoresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresController.m; sourceTree = "<group>"; };
+		AC27EC9116DA7FF500A18186 /* attributes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = attributes.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC03D3C816AC940D00AFC66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03D3D016AC940D00AFC66F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC03D3C016AC940C00AFC66F = {
+			isa = PBXGroup;
+			children = (
+				AC03D3EC16AC946200AFC66F /* field.c */,
+				AC03D3ED16AC946200AFC66F /* field.h */,
+				AC03D3D516AC940D00AFC66F /* minestimed */,
+				AC03D3CE16AC940D00AFC66F /* Frameworks */,
+				AC03D3CC16AC940D00AFC66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC03D3CC16AC940D00AFC66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC03D3CB16AC940D00AFC66F /* minestimed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC03D3CE16AC940D00AFC66F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC03D3CF16AC940D00AFC66F /* Cocoa.framework */,
+				AC03D3D116AC940D00AFC66F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC03D3D116AC940D00AFC66F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC03D3D216AC940D00AFC66F /* AppKit.framework */,
+				AC03D3D316AC940D00AFC66F /* CoreData.framework */,
+				AC03D3D416AC940D00AFC66F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AC03D3D516AC940D00AFC66F /* minestimed */ = {
+			isa = PBXGroup;
+			children = (
+				AC03D3E116AC940D00AFC66F /* AQTAppDelegate.h */,
+				AC03D3E216AC940D00AFC66F /* AQTAppDelegate.m */,
+				AC03D3E416AC940E00AFC66F /* MainMenu.xib */,
+				AC03D3F516AD5D8900AFC66F /* MineFieldView.h */,
+				AC03D3F616AD5D8900AFC66F /* MineFieldView.m */,
+				AC03D3F216AC969500AFC66F /* Controller.h */,
+				AC03D3F316AC969500AFC66F /* Controller.m */,
+				AC068B6316C4EFB0000BE5DB /* ScoresController.h */,
+				AC068B6416C4EFB0000BE5DB /* ScoresController.m */,
+				AC03D3D616AC940D00AFC66F /* Supporting Files */,
+			);
+			path = minestimed;
+			sourceTree = "<group>";
+		};
+		AC03D3D616AC940D00AFC66F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC03D3D716AC940D00AFC66F /* minestimed-Info.plist */,
+				AC03D3D816AC940D00AFC66F /* InfoPlist.strings */,
+				AC03D3DB16AC940D00AFC66F /* main.m */,
+				AC03D3DD16AC940D00AFC66F /* minestimed-Prefix.pch */,
+				AC27EC9116DA7FF500A18186 /* attributes.plist */,
+				AC03D3DE16AC940D00AFC66F /* Credits.rtf */,
+				AC03D3F816AF555000AFC66F /* grid2.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC03D3CA16AC940D00AFC66F /* minestimed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC03D3E916AC940E00AFC66F /* Build configuration list for PBXNativeTarget "minestimed" */;
+			buildPhases = (
+				AC03D3C716AC940D00AFC66F /* Sources */,
+				AC03D3C816AC940D00AFC66F /* Frameworks */,
+				AC03D3C916AC940D00AFC66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minestimed;
+			productName = minestimed;
+			productReference = AC03D3CB16AC940D00AFC66F /* minestimed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC03D3C216AC940C00AFC66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AC03D3C516AC940C00AFC66F /* Build configuration list for PBXProject "minestimed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC03D3C016AC940C00AFC66F;
+			productRefGroup = AC03D3CC16AC940D00AFC66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC03D3CA16AC940D00AFC66F /* minestimed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC03D3C916AC940D00AFC66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03D3DA16AC940D00AFC66F /* InfoPlist.strings in Resources */,
+				AC03D3E016AC940D00AFC66F /* Credits.rtf in Resources */,
+				AC03D3E616AC940E00AFC66F /* MainMenu.xib in Resources */,
+				AC03D3F916AF555000AFC66F /* grid2.png in Resources */,
+				AC27EC9216DA7FF500A18186 /* attributes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC03D3C716AC940D00AFC66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03D3DC16AC940D00AFC66F /* main.m in Sources */,
+				AC03D3E316AC940D00AFC66F /* AQTAppDelegate.m in Sources */,
+				AC03D3F016AC946200AFC66F /* field.c in Sources */,
+				AC03D3F416AC969500AFC66F /* Controller.m in Sources */,
+				AC03D3F716AD5D8900AFC66F /* MineFieldView.m in Sources */,
+				AC068B6516C4EFB0000BE5DB /* ScoresController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC03D3D816AC940D00AFC66F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC03D3D916AC940D00AFC66F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC03D3DE16AC940D00AFC66F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC03D3DF16AC940D00AFC66F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AC03D3E416AC940E00AFC66F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC03D3E516AC940E00AFC66F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC03D3E716AC940E00AFC66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC03D3E816AC940E00AFC66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC03D3EA16AC940E00AFC66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "minestimed/minestimed-Prefix.pch";
+				INFOPLIST_FILE = "minestimed/minestimed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC03D3EB16AC940E00AFC66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "minestimed/minestimed-Prefix.pch";
+				INFOPLIST_FILE = "minestimed/minestimed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC03D3C516AC940C00AFC66F /* Build configuration list for PBXProject "minestimed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03D3E716AC940E00AFC66F /* Debug */,
+				AC03D3E816AC940E00AFC66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC03D3E916AC940E00AFC66F /* Build configuration list for PBXNativeTarget "minestimed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC03D3EA16AC940E00AFC66F /* Debug */,
+				AC03D3EB16AC940E00AFC66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC03D3C216AC940C00AFC66F /* Project object */;
+}
